@@ -44,6 +44,8 @@ namespace lab1SisProg
         {
             if (!Begin(1))
                 Stop();
+
+            Clear();
         }
 
         private void Stop()
