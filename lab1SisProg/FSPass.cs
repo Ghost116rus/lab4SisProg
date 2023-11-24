@@ -302,6 +302,11 @@ namespace lab1SisProg
                                         return false;
                                     }
                                 }
+                                else
+                                {
+                                    errorText = $"В строке {i + 1} ошибка. Отрицательное число либо превышено максимальное значение числа";
+                                    return false;
+                                }
                             }
                             else
                             {
