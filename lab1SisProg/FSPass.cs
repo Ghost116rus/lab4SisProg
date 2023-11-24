@@ -647,7 +647,7 @@ namespace lab1SisProg
                                             return false;
                                         }
 
-                                        string res2 = CheckOP(OP1, out er, out label, -1);
+                                        string res2 = CheckOP(OP2, out er, out label, -1);
                                         if (er)
                                         {
                                             errorText = $"В строке {i + 1} ошибка. Ошибка в операнде, код отсутсвтует в ТСИ";
